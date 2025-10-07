@@ -60,7 +60,7 @@ class LinkedList {
             current = current.nextNode;
         }
         previous.nextNode = null;
-        
+        this.size--;
     }
 }
 export { LinkedList }
