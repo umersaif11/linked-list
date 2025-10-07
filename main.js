@@ -6,3 +6,4 @@ list.prepend(20);
 list.prepend(30);
 console.log(list.getSize());
 console.log(list.getHead());
+console.log(list.getTail())
