@@ -25,8 +25,13 @@ class LinkedList {
         current.nextNode = newNode;
         this.size++;
     }
-    size(){
+    //totalNodes
+    size() {
         return this.size;
+    }
+    //firstNode
+    head() {
+        return this.head;
     }
 }
 export { LinkedList }
