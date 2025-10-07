@@ -19,6 +19,9 @@ class LinkedList {
     append(value) {
         const newNode = new Node(value);
         let current = this.head;
+        while(current.nextNode) {
+            
+        }
     }
 }
 export { LinkedList }
