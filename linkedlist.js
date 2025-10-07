@@ -22,6 +22,8 @@ class LinkedList {
         while(current.nextNode) {
             current = current.nextNode;
         }
+        current.nextNode = newNode;
+        this.size++;
     }
 }
 export { LinkedList }
