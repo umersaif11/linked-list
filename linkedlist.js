@@ -10,3 +10,4 @@ class LinkedList {
         this.size = 0;
     }
 }
+export { LinkedList }
