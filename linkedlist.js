@@ -10,7 +10,7 @@ class LinkedList {
         this.size = 0;
     }
     prepend(value) {
-        
+        const newNode = new Node(value, this.head);
     }
 }
 export { LinkedList }
