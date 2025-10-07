@@ -51,5 +51,11 @@ class LinkedList {
         }
         return current.value;
     }
+    //removeLastElement
+    pop() {
+        let current = this.head;
+        let previous;
+        let count = 0;
+    }
 }
 export { LinkedList }
