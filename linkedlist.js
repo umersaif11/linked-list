@@ -44,6 +44,7 @@ class LinkedList {
     //NodeAtIndex
     NodeAt(index) {
         let current = this.head;
+        let count = 0;
     }
 }
 export { LinkedList }
