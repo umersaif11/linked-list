@@ -55,7 +55,10 @@ class LinkedList {
     pop() {
         let current = this.head;
         let previous;
-        let count = 0;
+        while(current.nextNode) {
+            previous = current;
+            current = current.nextNode;
+        }
     }
 }
 export { LinkedList }
