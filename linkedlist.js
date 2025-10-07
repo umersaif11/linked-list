@@ -59,6 +59,8 @@ class LinkedList {
             previous = current;
             current = current.nextNode;
         }
+        previous.nextNode = null;
+        
     }
 }
 export { LinkedList }
