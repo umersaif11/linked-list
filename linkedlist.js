@@ -26,12 +26,12 @@ class LinkedList {
         this.size++;
     }
     //totalNodes
-    size() {
+    getSize() {
         return this.size;
     }
     //firstNode
-    head() {
-        return this.head;
+    getHead() {
+        return this.head.value;
     }
 }
 export { LinkedList }
