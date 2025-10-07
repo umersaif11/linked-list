@@ -7,3 +7,4 @@ list.prepend(30);
 console.log(list.getSize());
 console.log(list.getHead());
 console.log(list.getTail())
+console.log(list.NodeAt(1))
