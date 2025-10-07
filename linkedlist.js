@@ -18,6 +18,7 @@ class LinkedList {
     //insertAtEnd
     append(value) {
         const newNode = new Node(value);
+        let current = this.head;
     }
 }
 export { LinkedList }
