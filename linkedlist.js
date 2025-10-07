@@ -43,7 +43,7 @@ class LinkedList {
     }
     //NodeAtIndex
     NodeAt(index) {
-        
+        let current = this.head;
     }
 }
 export { LinkedList }
