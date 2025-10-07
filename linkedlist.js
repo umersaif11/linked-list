@@ -41,5 +41,9 @@ class LinkedList {
         }
         return current.value;
     }
+    //NodeAtIndex
+    NodeAt(index) {
+        
+    }
 }
 export { LinkedList }
