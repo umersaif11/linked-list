@@ -33,5 +33,13 @@ class LinkedList {
     getHead() {
         return this.head.value;
     }
+    //lastNode
+    getTail() {
+        let current = this.head;
+        while(current.nextNode) {
+            current = current.nextNode;
+        }
+        return current.value;
+    }
 }
 export { LinkedList }
