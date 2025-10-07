@@ -49,6 +49,7 @@ class LinkedList {
             current = current.nextNode;
             count++;
         }
+        return current.value;
     }
 }
 export { LinkedList }
