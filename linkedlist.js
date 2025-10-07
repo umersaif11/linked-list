@@ -17,7 +17,7 @@ class LinkedList {
     }
     //insertAtEnd
     append(value) {
-
+        const newNode = new Node(value);
     }
 }
 export { LinkedList }
