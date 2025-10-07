@@ -9,5 +9,8 @@ class LinkedList {
         this.head = null;
         this.size = 0;
     }
+    prepend(value) {
+        
+    }
 }
 export { LinkedList }
