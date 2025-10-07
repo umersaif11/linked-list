@@ -20,7 +20,7 @@ class LinkedList {
         const newNode = new Node(value);
         let current = this.head;
         while(current.nextNode) {
-            
+            current = current.nextNode;
         }
     }
 }
