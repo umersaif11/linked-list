@@ -25,5 +25,8 @@ class LinkedList {
         current.nextNode = newNode;
         this.size++;
     }
+    size(){
+        return this.size;
+    }
 }
 export { LinkedList }
