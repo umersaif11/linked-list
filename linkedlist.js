@@ -9,10 +9,15 @@ class LinkedList {
         this.head = null;
         this.size = 0;
     }
+    //insertAtBeginning
     prepend(value) {
         const newNode = new Node(value, this.head);
         this.head = newNode;
         this.size++;
+    }
+    //insertAtEnd
+    append(value) {
+
     }
 }
 export { LinkedList }
