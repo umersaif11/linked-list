@@ -91,6 +91,7 @@ class LinkedList {
         let current = this.head;
         let previous;
         let count = 0;
+        if(index < 0 || index > this.size) return;
         while(count < index) {
             previous = current;
             current = current.nextNode;
