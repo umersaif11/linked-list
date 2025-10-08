@@ -117,8 +117,8 @@ class LinkedList {
             current = current.nextNode;
             count++;
         }
-        previous.nextNode = new Node(value, current);
-        this.size++;
+        previous.nextNode = current.nextNode;
+        this.size--;
     }
 }
 export { LinkedList }
