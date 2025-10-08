@@ -73,7 +73,7 @@ class LinkedList {
         }
         return false;
     }
-    //containsValueInListAtIndex
+    //valueInListAtIndex
     find(value) {
         let current = this.head;
         let count = 0;
@@ -85,6 +85,10 @@ class LinkedList {
             count++;
         }
         return 'Value not found';
+    }
+    //insertAtIndex
+    insertAt(value, index) {
+        
     }
 }
 export { LinkedList }
