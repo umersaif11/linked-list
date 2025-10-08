@@ -73,5 +73,18 @@ class LinkedList {
         }
         return false;
     }
+    //containsValueInListAtIndex
+    find(value) {
+        let current = this.head;
+        let count = 0;
+        while(current) {
+            if(current.value === value) {
+                return `Value found at index ${count}`;
+            }
+            current = current.nextNode;
+            count++;
+        }
+        return 'Value not found';
+    }
 }
 export { LinkedList }
