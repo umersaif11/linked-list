@@ -71,6 +71,7 @@ class LinkedList {
             }
             current = current.nextNode;
         }
+        return false;
     }
 }
 export { LinkedList }
