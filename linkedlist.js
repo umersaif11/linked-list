@@ -64,7 +64,7 @@ class LinkedList {
     }
     //containsValueInList
     contains(value) {
-        
+        let current = this.head;
     }
 }
 export { LinkedList }
