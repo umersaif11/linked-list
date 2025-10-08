@@ -12,3 +12,6 @@ list.pop();
 console.log(list.getTail());
 console.log(list.contains(20));
 console.log(list.find(30));
+list.insertAt(10,1);
+console.log(list.getSize());
+console.log(list.NodeAt(0));
