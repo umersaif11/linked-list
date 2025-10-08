@@ -10,4 +10,5 @@ console.log(list.getTail());
 console.log(list.NodeAt(2));
 list.pop();
 console.log(list.getTail());
-console.log(list.contains(20))
+console.log(list.contains(20));
+console.log(list.find(30));
