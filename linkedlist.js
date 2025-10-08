@@ -69,6 +69,7 @@ class LinkedList {
             if(current.value === value) {
                 return true;
             }
+            current = current.nextNode;
         }
     }
 }
