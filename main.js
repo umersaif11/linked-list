@@ -15,3 +15,5 @@ console.log(list.find(30));
 list.insertAt(10,1);
 console.log(list.getSize());
 console.log(list.NodeAt(0));
+list.removeAt(1);
+console.log(list.getSize());
