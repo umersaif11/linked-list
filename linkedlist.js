@@ -66,7 +66,9 @@ class LinkedList {
     contains(value) {
         let current = this.head;
         while(current.nextNode) {
-            
+            if(current.value === value) {
+                return true;
+            }
         }
     }
 }
