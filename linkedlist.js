@@ -88,7 +88,9 @@ class LinkedList {
     }
     //insertAtIndex
     insertAt(value, index) {
-        
+        let current = this.head;
+        let previous;
+        let count = 0;
     }
 }
 export { LinkedList }
