@@ -120,5 +120,16 @@ class LinkedList {
         previous.nextNode = current.nextNode;
         this.size--;
     }
+    //printLinkedList
+    toString() {
+        let current = this.head;
+        let list = '';
+        while(current) {
+            list += `( ${current.value} ) --> `;
+            current = current.nextNode;
+        }
+        console.log(list += 'null');
+        
+    }
 }
 export { LinkedList }
