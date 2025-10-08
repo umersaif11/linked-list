@@ -62,5 +62,9 @@ class LinkedList {
         previous.nextNode = null;
         this.size--;
     }
+    //containsValueInList
+    contains(value) {
+        
+    }
 }
 export { LinkedList }
