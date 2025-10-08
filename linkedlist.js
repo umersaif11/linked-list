@@ -92,7 +92,8 @@ class LinkedList {
         let previous;
         let count = 0;
         while(count < index) {
-            
+            previous = current;
+            current = current.nextNode;
         }
     }
 }
