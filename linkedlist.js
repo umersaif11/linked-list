@@ -91,6 +91,9 @@ class LinkedList {
         let current = this.head;
         let previous;
         let count = 0;
+        while(count < index) {
+            
+        }
     }
 }
 export { LinkedList }
