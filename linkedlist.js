@@ -18,11 +18,15 @@ class LinkedList {
     //insertAtEnd
     append(value) {
         const newNode = new Node(value);
-        let current = this.head;
-        while(current.nextNode) {
-            current = current.nextNode;
+        if(!this.head){
+            this.head = newNode;
+        } else {
+            let current = this.head;
+            while(current.nextNode) {
+                current = current.nextNode;
+            }
+            current.nextNode = newNode;
         }
-        current.nextNode = newNode;
         this.size++;
     }
     //totalNodes
