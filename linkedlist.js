@@ -65,6 +65,9 @@ class LinkedList {
     //containsValueInList
     contains(value) {
         let current = this.head;
+        while(current.nextNode) {
+            
+        }
     }
 }
 export { LinkedList }
