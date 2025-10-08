@@ -94,7 +94,10 @@ class LinkedList {
         while(count < index) {
             previous = current;
             current = current.nextNode;
+            count++;
         }
+        previous.nextNode = new Node(value, current);
+        this.size++;
     }
 }
 export { LinkedList }
